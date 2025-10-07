@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A sample HTML5 page demonstrating semantic structure, accessibility best practices, and SEO principles for beginners">
+    <title>HTML5 Semantic Example - Accessibility & SEO Best Practices</title>
+</head>
+<body>
+    <!-- Skip link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Header with page title and introduction -->
+    <header>
+        <h1>HTML5 Semantic Web Page</h1>
+        <p>Demonstrating accessibility best practices and SEO principles</p>
+    </header>
+    
+    <!-- Main navigation -->
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="#html5">HTML5 Semantics</a></li>
+            <li><a href="#accessibility">Accessibility</a></li>
+            <li><a href="#seo">SEO Principles</a></li>
+            <li><a href="#resources">Resources</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Main content area -->
+    <main id="main-content">
+        <!-- Dynamic welcome message will be inserted here by JavaScript -->
+        
+        <!-- Skills container for JavaScript to populate -->
+        <div id="skills-container"></div>
+        
+        <!-- Primary content -->
+        <article>
+            <h2>Understanding HTML5 Semantic Elements</h2>
+            
+            <p>Semantic HTML5 elements clearly describe their meaning to both browsers and developers. Unlike traditional <code>&lt;div&gt;</code> elements that tell us nothing about their content, semantic elements like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code> provide meaningful structure to web documents.</p>
+            
+            <h3>Why Semantic HTML Matters</h3>
+            <p>Using semantic elements improves:</p>
+            <ul>
+                <li><strong>Accessibility:</strong> Screen readers can better interpret and navigate page structure</li>
+                <li><strong>SEO:</strong> Search engines can better understand content hierarchy and relevance</li>
+                <li><strong>Maintainability:</strong> Developers can more easily understand code structure</li>
+                <li><strong>Interoperability:</strong> Standardized elements work consistently across platforms</li>
+            </ul>
+            
+            <h3>Common Semantic Elements</h3>
+            <p>HTML5 introduced several semantic elements to define different parts of a web page:</p>
+            <ol>
+                <li><code>&lt;header&gt;</code> - Introductory content or navigational aids</li>
+                <li><code>&lt;nav&gt;</code> - Section with navigation links</li>
+                <li><code>&lt;main&gt;</code> - Dominant content of the document</li>
+                <li><code>&lt;article&gt;</code> - Self-contained composition</li>
+                <li><code>&lt;section&gt;</code> - Thematic grouping of content</li>
+                <li><code>&lt;aside&gt;</code> - Content indirectly related to the main content</li>
+                <li><code>&lt;footer&gt;</code> - Footer for its nearest sectioning content</li>
+            </ol>
+            
+            <figure>
+                <figcaption>Example of semantic HTML structure</figcaption>
+                <pre><code>&lt;body&gt;
+  &lt;header&gt;
+    &lt;h1&gt;Page Title&lt;/h1&gt;
+    &lt;nav&gt;...&lt;/nav&gt;
+  &lt;/header&gt;
+  
+  &lt;main&gt;
+    &lt;article&gt;
+      &lt;h2&gt;Article Title&lt;/h2&gt;
+      &lt;p&gt;Article content...&lt;/p&gt;
+    &lt;/article&gt;
+    
+    &lt;aside&gt;
+      &lt;h3&gt;Related Info&lt;/h3&gt;
+      &lt;p&gt;Additional content...&lt;/p&gt;
+    &lt;/aside&gt;
+  &lt;/main&gt;
+  
+  &lt;footer&gt;
+    &lt;p&gt;Copyright info&lt;/p&gt;
+  &lt;/footer&gt;
+&lt;/body&gt;</code></pre>
+            </figure>
+        </article>
+        
+        <!-- Supplementary content -->
+        <aside>
+            <h3>Related Resources</h3>
+            <ul>
+                <li><a href="#">HTML5 Semantic Elements Guide</a></li>
+                <li><a href="#">Web Accessibility Principles</a></li>
+                <li><a href="#">SEO Best Practices</a></li>
+                <li><a href="#">HTML5 Validator Tool</a></li>
+            </ul>
+            
+            <h3>Did You Know?</h3>
+            <p>Using semantic HTML can improve your website's SEO by up to 30% by helping search engines understand your content better.</p>
+            
+            <h3>Quick Tips</h3>
+            <ul>
+                <li>Use only one <code>&lt;main&gt;</code> element per page</li>
+                <li>Always provide text alternatives for images</li>
+                <li>Use heading elements in proper hierarchical order</li>
+                <li>Test your page with screen readers</li>
+            </ul>
+        </aside>
+        
+        <!-- Dynamic resources section will be inserted here by JavaScript -->
+    </main>
+    
+    <!-- Additional section -->
+    <section aria-labelledby="accessibility-heading">
+        <h2 id="accessibility-heading">Accessibility Best Practices</h2>
+        <p>Web accessibility ensures that people with disabilities can perceive, understand, navigate, and interact with websites. Here are key practices:</p>
+        
+        <h3>Semantic Structure</h3>
+        <p>Using proper HTML elements provides inherent accessibility. Screen readers use semantic elements to help users navigate and understand content.</p>
+        
+        <h3>ARIA Landmarks</h3>
+        <p>While semantic HTML provides many landmarks automatically, sometimes you need to use ARIA roles for complex widgets or when HTML5 semantics are limited.</p>
+        
+        <h3>Text Alternatives</h3>
+        <p>Always provide alt text for images and other non-text content. This allows screen readers to convey the meaning of visual content.</p>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>Created with semantic HTML5 for better accessibility and SEO</p>
+        <p>&copy; 2025 page by Kiserian Amos. All rights reserved.</p>
+        <p>Contact: <a href="mailto:info@example.com">info@example.com</a></p>
+    </footer>
+</body>
+</html>
